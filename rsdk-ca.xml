@@ -2,5 +2,5 @@
 <manifest>
 	<include name="default.xml" />
     <remote fetch="https://source.codeaurora.org/external/autobsps32/extra/" name="rsdk-ca"/>
-	<project remote="rsdk-ca" revision="091c3acef41f8746e11d39bf1879b40a5c85fc9a" name="meta-rsdk" path="sources/meta-rsdk"/>
+	<project remote="rsdk-ca" revision="59794d72ba76870fe063b58fbe7fac454ee1fb10" name="meta-rsdk" path="sources/meta-rsdk"/>
 </manifest>

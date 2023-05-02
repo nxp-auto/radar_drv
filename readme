@@ -2,4 +2,4 @@ NXP Radar SDK (RSDK) Yocto Project Manifests
 ==========================================================
 
 Provides support for the NXP Radar SDK to integrate Linux BSP 
-Yocto Layer by using Meta-rsdk Yocto Layer.
+Yocto Layer by using Meta-RSDK Yocto Layer.

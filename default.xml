@@ -3,27 +3,25 @@
   <remote fetch="https://github.com/nxp-auto-linux" name="alb"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://git.openembedded.org" name="oe"/>
-  <remote fetch="https://git.linaro.org/openembedded" name="linaro"/>
 
   <remote fetch="https://github.com/nxp-qoriq" name="qoriq"/>
 
   <!-- The default revision and remote are applicable to the meta-alb layer -->
-  <default sync-j="2" revision="80cfe1f8d78da5bc46d646942047cd5ec13c3e11" remote="alb"/>
+  <default sync-j="2" revision="631692274bab3d986b3ffec0389b8cdb20f956bc" remote="alb" path="sources/meta-alb"/>
 
   <project name="meta-alb" path="sources/meta-alb">
     <copyfile dest="nxp-setup-alb.sh"    src="nxp-setup-alb.sh"/>
   </project>
 
   <!-- projects below synchronized with default.xml in LFAC -->
-  <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="41d4f625c6db7a778f0f9a735c2cb48e023bc49b"/>
-  <project name="meta-linaro" path="sources/meta-linaro" remote="linaro" revision="fb96032b38e3064290ab0891238c92d47a45f151"/>
-  <project name="meta-python2" path="sources/meta-openembedded/meta-python2" remote="oe" revision="3fae17aece0e6d82f56965fe501bf7080c671df8"/>
-  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="fa093228c02c4a42da1f9abb77c4c57d70d5a212"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="6a751048e50c00261d99c2d8d69534f7a8da38a9"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="6f04cf1fce13c9852d4ec86b66a3858c42b7c7c9"/>
+  <project name="meta-python2" path="sources/meta-openembedded/meta-python2" remote="oe" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253"/>
+  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d398cc6ea6716afd3a3a6e88ad8fbdc89510ef23"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="b3b3dbc67504e8cd498d6db202ddcf5a9dd26a9d"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="bdad2a789e30703a825b876279665720d06d55dc"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="f53ab3a2ff206a130cdc843839dd0ea5ec4ad02f"/>
 
   <!-- projects below are not updated for gatesgarth -->
-  <project name="meta-qoriq" path="sources/meta-qoriq" remote="qoriq" revision="eb3f043a733a8a49345277c974dc0e0bd88e1a6b"/>
+  <project name="meta-qoriq" path="sources/meta-qoriq" remote="qoriq" revision="afaef5e29b0d5cb8a0f59c62bf9cbd44140b041e"/>
 
   </manifest>
